@@ -4,6 +4,7 @@ This was the first line of a md file.
 
 ## Should I push to master? 
 
+this is an example of _italic_ or *bold* 
 
-*Yes 
-*No   
+* Yes 
+* No   
