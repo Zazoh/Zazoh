@@ -1,0 +1,123 @@
+body{
+  font-family:Helvetica;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+.navigation{
+  background-color:#C7c7c7;
+}
+.aLeft{
+	position: absolute;
+	margin-left: 50px;
+}
+.aRight{
+	text-align:right;	
+}
+.dotHR {
+background-color:#fff;
+border:#ccc 1px dashed;
+border-style: none none dashed;
+color:#fff;
+}
+.header {
+    color: rgb(255, 255, 255);
+  background-color:#336699;    
+  font-size: 28px;
+  line-height: 50px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 10px 0;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.589844) 0px -1px 0px;
+}
+.headerie {
+    background-color: #FF6600;
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 10px 0;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.589844) 0px -1px 0px;
+}
+div#title a:link {color:white;}
+div#title a:visited {color:white;}
+a:link {color: rgb(22,105,156);
+	text-decoration: none;
+	}
+a:visited { 
+	color: rgb(22,105,156);
+	text-decoration: none;
+	}
+a:hover { 
+	color: orange;
+	text-decoration: underline;
+    }
+a:active { 
+        color: #333333;
+}
+
+.container {
+            max-width:800px;
+            margin-left: auto;
+            margin-right: auto;
+}
+
+img {   
+    display: block;   
+    margin-left: auto;   
+    margin-right: auto;
+    max-width: 50%;
+}
+
+.content {
+    margin:10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(172, 172, 172);
+    background-color: #ffffff;
+    
+    border-top-left-radius: 8px 8px;
+    border-top-right-radius: 8px 8px;
+    border-bottom-right-radius: 8px 8px;
+    border-bottom-left-radius: 8px 8px;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    font-size: 16px;
+    color:#808080;
+    letter-spacing: 0px;
+    height: auto;
+    padding:5px;
+}
+
+.red {color:red; font-size:10px;}
+
+.gray { color:#4bc538; 
+        font-size:22px;
+}
+
+.orange {font-family:Helvetica; 
+        color:Orange;
+        font-size:12px;
+}
+.blue {font-family:Helvetica; 
+        color:#336699;
+        font-size:28px;
+}
+
+.navigation {border-style:dashed; 
+            color:#336699; 
+            border-width:thin;
+}
+
+.subtitle{font-family:Verdana; 
+        font-size:18px;
+        color:#336699;
+}
+
+.submeta{font-family:Verdana; 
+        font-size:12px;
+        color:#999999;
+        text-align:right;
+}

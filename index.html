@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="viewport" content="width=device-width,user-scalable=yes"  />
+<META NAME="Keywords" CONTENT="Brian Huffman, programing, coding, VIM, JavaScript, AJAX, Chrome">
+<META NAME="Description" CONTENT="Developer site created by Brian Huffman. VIM, JavaScript, AJAX">
+<META NAME="Author" CONTENT="brian@zazoh.com">
+<script>
+if (navigator.userAgent.indexOf('Mobile Safari') !=-1) {
+	addEventListener('load',hideURLbar,false);
+	}
+function hideURLbar() {
+	window.scrollTo (0, 1);
+	
+}
+</script>
+<link rel="stylesheet" type="text/css" href="main.css" />
+<script src="root.js"></script>
+<link rel="apple-touch-icon" href="apple-touch-icon.png"/>
+<title>Zazoh.COM</title>
+</head>
+<body onload="hideURLbar();loadDoc('blog');">
+<div class="header" id="title"><!--[if IE]><div class="headerie" id="title"><![endif]--><a href="index.html">Zazoh<span class="orange">.</span><span class="gray">com</span></a></div><!--[if IE]></div><![endif]-->
+<div class="navigation">Nav Area </div>
+<div class="container">
+<div> | <a href="#" onclick="loadDoc('blog');">Home</a> | <a href="#" onclick="loadDoc('CB');">Chromebook</a></div>
+  <div class="content"><p>
+  <div id="blog"></div>
+</div> 
+<div class="submeta">&copy; 2019 - Brian Huffman</div>     
+ </div>
+ </body>
+ </html>
