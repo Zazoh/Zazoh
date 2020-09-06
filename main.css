@@ -4,6 +4,8 @@ body{
   margin: 0;
   padding: 0;
 }
+.divLink {margin-left:20px; margin-top:2px;}
+
 .navigation{
   background-color:#696969;
   color:#ffffff;
