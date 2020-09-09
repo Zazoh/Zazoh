@@ -2,3 +2,4 @@
 	RedirectMatch 403 favicon.ico
 </IfModule> 
 
+ErrorDocument 404 /404.htm
