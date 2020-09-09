@@ -3,11 +3,30 @@
   <head>
     <meta charset="utf-8">
     <title>Shoot, Page Not Found</title>
-    <meta name="description" content="zazoh.com">
-    <link rel="stylesheet" href="/main.css">
-  </head>
-  <body> 
-    D'oh -- bad link or request.<br>
-You can go back to the <a href="http://zazoh.com/">Home page</a>.
-  </body>
-</html>
+<META NAME="Author" CONTENT="brian@zazoh.com">
+<script>
+if (navigator.userAgent.indexOf('Mobile Safari') !=-1) {
+	addEventListener('load',hideURLbar,false);
+	}
+function hideURLbar() {
+	window.scrollTo (0, 1);
+}
+</script>
+<link rel="stylesheet" type="text/css" href="/main.css" />
+<script src="/root.js"></script>
+</head>
+<body onload="hideURLbar();">
+<div class="header" id="title">
+    <a href="http://zazoh.com/">Zazoh<span class="orange">.</span><span class="gray">com</span></a></div>
+<div class="navigation">&nbsp;</div>
+<div class="container">
+  <div class="content"><p>
+      <div id="blog"><div class="blue">
+          404 - Page not found.</div>
+      <p>
+          It appears you were sent to a location at this site that doesn't exist. Tap or click the logo above. </p></div>
+</div> 
+<div class="submeta">&copy; 2020 - Brian Huffman</div>     
+ </div>
+ </body>
+ </html>
