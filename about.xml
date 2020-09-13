@@ -1,8 +1,13 @@
 <CATALOG>
 	<POST>
 		<DATE>September 1, 2020</DATE>
-		<TITLE>Paradigm Shifts</TITLE>
-		<BODY><![CDATA[I'm Brian - I code stuff. ]]>
+		<TITLE>About Me</TITLE>
+        <BODY><![CDATA[
+            Hello, I'm Brian Huffman. A software engineer. <br>
+            <P>
+            <img src="images/me.jpeg">
+            </p>
+        ]]>
 		</BODY>
 	</POST>
 </CATALOG>
